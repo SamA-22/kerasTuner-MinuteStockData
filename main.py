@@ -10,8 +10,7 @@ hpTuner = stockHpTuner(
     #(optional but change recomended. read the README file for more info) warning increasing how far back to take data will increase time taken to run.
     #valiid intervals: 1d, 5d, 7d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
     pastDays = "7d",
-    #(optional. read the README file for more info)
-    #valid intervals: 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo
+    #(optional) valid intervals: 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo
     timeInterval = "1m",
     # (optional) shorter amount of prediction days used will allow higher accuracy when predicting close future minutes. Defualt value is 3
     predictionTimes = 3,
